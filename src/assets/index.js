@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import cvIcon from "./cv_icons.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -63,6 +64,11 @@ import img_t2 from "./img_projet/telecom2.png";
 import img_t3 from "./img_projet/telecom3.png";
 import img_ts from "./img_projet/ts.png";
 import img_tdl from "./img_projet/tdl.png";
+
+import instagram from "./instagram.png"
+import logan from "./dessins/logan.png";
+import minji from "./dessins/minji.png";
+import wy from "./dessins/wy.png";
 
 export {
   logo,
@@ -124,4 +130,9 @@ export {
   img_t3,
   img_ts,
   img_tdl,
+  logan,
+  instagram,
+  minji,
+  wy,
+  cvIcon,
 };

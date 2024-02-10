@@ -54,6 +54,9 @@ import {
     img_t3,
     img_ts,
     img_tdl,
+    logan,
+    minji,
+    wy,
     
   } from "../assets";
   
@@ -64,7 +67,12 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experiences",
+      
+    },
+    {
+      id: "hobby",
+      title: "Hobby",
     },
     {
       id: "contact",
@@ -74,21 +82,14 @@ import {
   
   const services = [
     {
-      title: "Coder",
-      icon: web,
+      title: "CV_FR",
+      path: cv_fr,
     },
     {
-      title: "Artist",
-      icon: mobile,
+      title: "CV_EN",
+      path: cv_en,
     },
-    {
-      title: "Tutor",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+  
   ];
   
   const technologies = [
@@ -236,7 +237,7 @@ import {
         },
       ],
       image: img_ana,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:ana_donnee,
     },
     {
@@ -251,7 +252,7 @@ import {
         },
       ],
       image: routeur,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:pim,
     },
     {
@@ -265,7 +266,7 @@ import {
         },
       ],
       image: img_tob,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:raffinage,
     },
     {
@@ -280,7 +281,7 @@ import {
         
       ],
       image: img_cs,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:cs,
     },
     {
@@ -294,7 +295,7 @@ import {
         },
       ],
       image: img_graphe,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:graphe,
     },
     {
@@ -308,7 +309,7 @@ import {
         },
       ],
       image: img_idm_p,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:idm_projet,
     },
     {
@@ -324,7 +325,7 @@ import {
   
       ],
       image: img_idm_mp,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:idm_mp,
     },
     {
@@ -339,7 +340,7 @@ import {
       
       ],
       image: img_ro,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:ro,
     },
     {
@@ -353,7 +354,7 @@ import {
         },
       ],
       image: img_minishell,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:sec,
     },
     {
@@ -368,7 +369,7 @@ import {
   
       ],
       image: img_tdl,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:tdl,
     },
     {
@@ -384,7 +385,7 @@ import {
         
       ],
       image: img_t1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:telecom1,
     },
     {
@@ -399,7 +400,7 @@ import {
         
       ],
       image: img_t2,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:telecom2,
     },
     {
@@ -414,7 +415,7 @@ import {
     
       ],
       image: img_t3,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:telecom3,
     },
     {
@@ -429,12 +430,28 @@ import {
       
       ],
       image: img_ts,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:ts,
     },
 
 
   ];
+
+  const drawings = [
+    {
+      name: "Logan",
+      image: logan,
+    },
+    {
+      name: "Minji (NewJeans)",
+      image: minji,
+    },
+    {
+      name: "WonYoung (IVE)",
+      image: wy,
+    },
+    // Add more drawings as needed
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, drawings };
   
