@@ -49,6 +49,21 @@ import ts from "./doc/Rapport_traitement_du_signal-1.pdf";
 import cv_en from "./doc/CV_en.pdf";
 import cv_fr from "./doc/CV_fr.pdf";
 
+import img_ana from "./img_projet/ana_donnee.png";
+import img_tob from "./img_projet/interfacegraph.png";
+import routeur from "./img_projet/routeur.png";
+import img_graphe from "./img_projet/graphe.png";
+import img_idm_p from "./img_projet/idm_p.png";
+import img_cs from "./img_projet/cs.png";
+import img_ro from "./img_projet/ro.png";
+import img_minishell from "./img_projet/minishell.png";
+import img_idm_mp from "./img_projet/idm_mp.png";
+import img_t1 from "./img_projet/telecom1.png";
+import img_t2 from "./img_projet/telecom2.png";
+import img_t3 from "./img_projet/telecom3.png";
+import img_ts from "./img_projet/ts.png";
+import img_tdl from "./img_projet/tdl.png";
+
 export {
   logo,
   backend,
@@ -95,4 +110,18 @@ export {
   ts,
   cv_en,
   cv_fr,
+  img_ana,
+  img_tob,
+  routeur,
+  img_graphe, 
+  img_cs, 
+  img_idm_p,
+  img_idm_mp,
+  img_minishell,
+  img_ro,
+  img_t1,
+  img_t2,
+  img_t3,
+  img_ts,
+  img_tdl,
 };

@@ -40,6 +40,20 @@ import {
     ts,
     cv_en,
     cv_fr,
+    img_ana,
+    img_tob,
+    routeur,
+    img_cs,
+    img_graphe,
+    img_idm_p,
+    img_idm_mp,
+    img_minishell,
+    img_ro,
+    img_t1,
+    img_t2,
+    img_t3,
+    img_ts,
+    img_tdl,
     
   } from "../assets";
   
@@ -214,308 +228,207 @@ import {
     {
       name: "Projet analyse de donnée",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "We explores Support Vector Machines with Gaussian kernel for classification tasks. Impressive results up to 94.2% accuracy were achieved, showcasing the flexibility and power of this approach.",
       tags: [
         {
-          name: "react",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
+      image: img_ana,
       source_code_link: "https://github.com/",
       pdf_link:ana_donnee,
     },
     {
       name: "Projet PIM",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The PIM project aims to implement and compare various ways of storing and utilizing a router's routing table using ADA. Three main programs were developed: a simple router without cache, a router with a cache in linked list form, and a router with a cache in binary tree form.",
       tags: [
+
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "ADA",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: routeur,
       source_code_link: "https://github.com/",
       pdf_link:pim,
     },
     {
       name: "Projet TOB",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The project creates user-friendly software for quick and efficient refinement creation. It automatically generates structured tables, ensuring quality and clarity in a streamlined interface.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "JAVA",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
+      image: img_tob,
       source_code_link: "https://github.com/",
       pdf_link:raffinage,
     },
     {
       name: "Projet Calcul scientifique",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The project aims to use the subspace iteration method, based on the Rayleigh quotient, to compute the largest eigenvectors and eigenvalues in absolute value of a matrix. Four variations of this method will be analyzed.",
       tags: [
         {
-          name: "nextjs",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: tripguide,
+      image: img_cs,
       source_code_link: "https://github.com/",
       pdf_link:cs,
     },
     {
       name: "Projet Graphe",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This report explores small satellites orbiting the moon, using Matlab to analyze behavior in varying scenarios. We represent satellites as graphs and analyze properties like average degree. The study covers both unweighted and weighted graphs.",
       tags: [
         {
-          name: "nextjs",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
+      image: img_graphe,
       source_code_link: "https://github.com/",
       pdf_link:graphe,
     },
     {
       name: "Projet IDM",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project aimed to develop tools for data management and automated calculations. While facing challenges, such as incomplete features for data schemas and import/export functions, we gained valuable insights into model-driven engineering technologies.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Java",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
+      image: img_idm_p,
       source_code_link: "https://github.com/",
       pdf_link:idm_projet,
     },
     {
       name: "Mini projet IDM",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This mini-project aims to verify the coherence of SimplePDL process models, focusing on determining if the described process can terminate. We use model-checking tools on Petri nets through the Tina toolkit, requiring the translation of a process model into a Petri net for analysis.",
       tags: [
+      
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Java",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+  
       ],
-      image: tripguide,
+      image: img_idm_mp,
       source_code_link: "https://github.com/",
       pdf_link:idm_mp,
     },
     {
       name: "Projet Recherche opérationnel",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The objective of this practical work is to initially model optimization problems in operational research and subsequently solve them using the GLPK solver.",
       tags: [
         {
-          name: "nextjs",
+          name: "GLPK",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+      
       ],
-      image: tripguide,
+      image: img_ro,
       source_code_link: "https://github.com/",
       pdf_link:ro,
     },
     {
       name: "Projet SEC",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project involves applying basic concepts from lectures and practical sessions on process management, signals, and I/O. The goal is to develop a simplified command interpreter with fundamental functionalities akin to Unix shells like bash.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "C",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: img_minishell,
       source_code_link: "https://github.com/",
       pdf_link:sec,
     },
     {
       name: "Projet Traduction des languages",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project extends the RAT language compiler in OCaml, adding new features like pointers, arrays, 'for', loops, and goto statements, building upon functionalities implemented in practical sessions.",
       tags: [
         {
-          name: "nextjs",
+          name: "Ocaml",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+  
       ],
-      image: tripguide,
+      image: img_tdl,
       source_code_link: "https://github.com/",
       pdf_link:tdl,
     },
     {
       name: "Projet Telecom part.1",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project initiates a study on baseband transmission, aiming to evaluate and optimize spectral and power efficiency while comparing different transmission chains.",
       tags: [
         {
-          name: "nextjs",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        
+        
       ],
-      image: tripguide,
+      image: img_t1,
       source_code_link: "https://github.com/",
       pdf_link:telecom1,
     },
     {
       name: "Projet Telecom part.2",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project aims to study and compare carrier frequency transmission chains, specifically in the context of DVB-S and DVB-S2 standards, focusing on modulator implementation and efficiency evaluation.",
       tags: [
         {
-          name: "nextjs",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: tripguide,
+      image: img_t2,
       source_code_link: "https://github.com/",
       pdf_link:telecom2,
     },
     {
       name: "Projet Telecom part.3",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project focuses on BPSK transmission over an AWGN channel with a coherent demodulation assumption and ideal frequency/time synchronization. Practical synchronization methods are briefly introduced, and the project aims to implement a synchronization method based on error estimation for correction.",
       tags: [
         {
-          name: "nextjs",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+    
       ],
-      image: tripguide,
+      image: img_t3,
       source_code_link: "https://github.com/",
       pdf_link:telecom3,
     },
     {
       name: "Projet Traitement du signal",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project involves creating a modem based on ITU's V.21 recommendation using Matlab. The steps include constructing a frequency-modulated signal, demodulating through filtering, and implementing FSK demodulation with and without synchronization errors.",
       tags: [
         {
-          name: "nextjs",
+          name: "Matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+      
       ],
-      image: tripguide,
+      image: img_ts,
       source_code_link: "https://github.com/",
       pdf_link:ts,
     },
