@@ -4,25 +4,43 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    julia,
+    ocaml,
+    c,
+    coq,
+    python,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    matlab,
+    java,
+    fuyao,
+    saintlouis,
+    n7,
+    tutor,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    ana_donnee,
+    fuyao_cn,
+    fuyao_en,
+    fuyao_fr,
+    pim,
+    raffinage,
+    cs,
+    graphe,
+    idm_projet,
+    idm_mp,
+    ro,
+    sec,
+    tdl,
+    telecom1,
+    telecom2,
+    telecom3,
+    ts,
+    cv_en,
+    cv_fr,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -73,100 +91,96 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "C",
+      icon: c,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Ocaml",
+      icon: ocaml,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "CoqIDE",
+      icon: coq,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Matlab",
+      icon: matlab,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Julia",
+      icon: julia,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: python,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Preparatory class ",
+      company_name: "Lycée Saint-Louis (44 boulevard Saint-Michel 75270 PARIS) ",
+      icon: saintlouis,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept 2020 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mastering fundamental mathematical concepts and problem-solving skills.",
+        "Acquiring a strong foundation in physics and developing analytical thinking.",
+        "Understanding and applying principles of classical mechanics, electromagnetism, and thermodynamics.",
+        "Solving complex mathematical problems and proofs.",
+        "Understanding the principles of thermodynamics and fluid mechanics.",
+        "Practicing time management and handling a demanding workload.",
+        "Developing a rigorous and disciplined approach to study and problem-solving.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Engineering Degree",
+      company_name: "ENSEEIHT",
+      icon: n7,
+      iconBg: "#1947ba",
+      date: "Sept 2022 - July 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mastering advanced concepts in computer science, including algorithms, and machine learning.",
+        "Acquiring proficiency in programming languages such as Python, Java, C... for diverse applications.",
+        "Collaborating on real-world projects with industry partners to apply theoretical knowledge to practical scenarios.",
+        "Participating in internships or work experiences to gain hands-on experience and apply classroom learning to real-world challenges.",
+        "Leading and contributing effectively in collaborative, team-based projects.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Internship",
+      company_name: "Fuyao Glass Grp. (China)",
+      icon: fuyao,
+      iconBg: "#f7f7f7",
+      date: "June 2023 - Aug 2023",
+      points: [
+        "Conducted in-depth analysis and research on GDPR compliance, ensuring company adherence to data protection regulations.",
+        "Researched and implemented ISO/IEC standards, contributing to the enhancement of quality and security protocols within the organization.",
+    ],
+    },
+    {
+      title: "Private Lessons",
+      company_name: "Discord - Home",
+      icon: tutor,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sept 2023 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Private tutoring in math and physics, providing personalized lessons and tailored explanations.",
+        "Effective communication and pedagogical skills to help students grasp challenging concepts.",
+        "Adapting teaching methods to individual learning styles.",
       ],
+    
     },
+    
   ];
   
   const testimonials = [
@@ -198,7 +212,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Projet analyse de donnée",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -217,9 +231,10 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
+      pdf_link:ana_donnee,
     },
     {
-      name: "Job IT",
+      name: "Projet PIM",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -238,9 +253,10 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      pdf_link:pim,
     },
     {
-      name: "Trip Guide",
+      name: "Projet TOB",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -259,7 +275,252 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      pdf_link:raffinage,
     },
+    {
+      name: "Projet Calcul scientifique",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:cs,
+    },
+    {
+      name: "Projet Graphe",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:graphe,
+    },
+    {
+      name: "Projet IDM",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:idm_projet,
+    },
+    {
+      name: "Mini projet IDM",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:idm_mp,
+    },
+    {
+      name: "Projet Recherche opérationnel",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:ro,
+    },
+    {
+      name: "Projet SEC",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:sec,
+    },
+    {
+      name: "Projet Traduction des languages",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:tdl,
+    },
+    {
+      name: "Projet Telecom part.1",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:telecom1,
+    },
+    {
+      name: "Projet Telecom part.2",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:telecom2,
+    },
+    {
+      name: "Projet Telecom part.3",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:telecom3,
+    },
+    {
+      name: "Projet Traitement du signal",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      pdf_link:ts,
+    },
+
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };
