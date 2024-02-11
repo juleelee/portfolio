@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,6 +13,12 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  const [showMorePoints, setShowMorePoints] = useState(false);
+
+  const toggleShowMorePoints = () => {
+    setShowMorePoints(!showMorePoints);
+  };
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -43,15 +49,33 @@ const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
+        {showMorePoints
+          ? experience.points.map((point, index) => (
+              <li
+                key={`experience-point-${index}`}
+                className='text-white-100 text-[14px] pl-1 tracking-wider'
+              >
+                {point}
+              </li>
+            ))
+          : experience.points.slice(0, 3).map((point, index) => (
+              <li
+                key={`experience-point-${index}`}
+                className='text-white-100 text-[14px] pl-1 tracking-wider'
+              >
+                {point}
+              </li>
+            ))}
       </ul>
+
+      {experience.points.length > 3 && (
+        <button
+          className='btn mt-3'
+          onClick={toggleShowMorePoints}
+        >
+          {showMorePoints ? "Show less" : "Show more"}
+        </button>
+      )}
     </VerticalTimelineElement>
   );
 };

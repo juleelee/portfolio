@@ -8,15 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-  pdf_link, // Add a PDF link
-}) => {
+const ProjectCard = ({ name, description, tags, image, source_code_link, pdf_link }) => {
   const [showMore, setShowMore] = useState(false);
 
   const toggleShowMore = () => {
@@ -24,32 +16,17 @@ const ProjectCard = ({
   };
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-      >
+    <motion.div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+      <Tilt options={{ max: 45, scale: 1, speed: 450 }}>
         <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+          <img src={image} alt='project_image' className='w-full h-full object-cover rounded-2xl' />
 
           <div className='absolute inset-0 flex justify-between items-start m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
+              <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
             </div>
             {/* Add the PDF button */}
             <div
@@ -73,10 +50,7 @@ const ProjectCard = ({
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
+            <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -87,6 +61,12 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const [visibleProjects, setVisibleProjects] = useState(3);
+
+  const toggleShowMoreProjects = () => {
+    setVisibleProjects(visibleProjects === projects.length ? 3 : projects.length);
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -104,10 +84,18 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {projects.slice(0, visibleProjects).map((project, index) => (
+          <ProjectCard key={`project-${index}`} {...project} />
         ))}
       </div>
+
+      {projects.length > 3 && (
+        <div className='mt-4'>
+          <button className='btn' onClick={toggleShowMoreProjects}>
+            {visibleProjects === projects.length ? "Show less" : "Show more"}
+          </button>
+        </div>
+      )}
     </>
   );
 };
