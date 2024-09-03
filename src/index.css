@@ -19,6 +19,22 @@
   display: block;
 }
 
+
+.btn {
+  text-decoration: underline;
+  color: #fff;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  padding: 5px 10px; /* Adjust padding for smaller size */
+  font-size: 12px; /* Decrease font size */
+}
+
+.btn:hover {
+  color: #bf61ff; /* Change this to the shade of blue you want */
+}
+
+
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -201,4 +217,6 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+
+
 }

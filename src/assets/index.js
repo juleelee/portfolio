@@ -24,6 +24,7 @@ import fuyao from "./company/fuyao.png";
 import tutor from "./company/tutor.png";
 import saintlouis from "./company/saintlouis.png";
 import n7 from "./company/enseeiht.png";
+import hust from "./company/Hustseals.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,10 +43,14 @@ import idm_mp from "./doc/RAPPORT_MINI_PROJET_IDM.pdf";
 import ro from "./doc/RAPPORT_RO_TP1.pdf";
 import sec from "./doc/RAPPORT_SEC_HUANG_JULIEN.pdf";
 import tdl from "./doc/RAPPORT_TDL.pdf";
-import telecom1 from "./doc/RAPPORT_Telecom.pdf";
+import telecom1 from "./doc/Rapport_Telecom.pdf";
 import telecom2 from "./doc/RAPPORT_Telecom_Part_2.pdf";
 import telecom3 from "./doc/Rapport_Telecom_Part_3.pdf";
 import ts from "./doc/Rapport_traitement_du_signal-1.pdf";
+
+import fy_fr from "./doc/Report_fuyao_fr.pdf";
+import fy_en from "./doc/Report_fuyao_en.pdf";
+import fy_cn from "./doc/Report_fuyao_cn.pdf";
 
 import cv_en from "./doc/CV_en.pdf";
 import cv_fr from "./doc/CV_fr.pdf";
@@ -69,6 +74,8 @@ import instagram from "./instagram.png"
 import logan from "./dessins/logan.png";
 import minji from "./dessins/minji.png";
 import wy from "./dessins/wy.png";
+
+
 
 export {
   logo,
@@ -94,6 +101,7 @@ export {
   tutor,
   saintlouis,
   n7,
+  hust,
   carrent,
   jobit,
   tripguide,
@@ -135,4 +143,7 @@ export {
   minji,
   wy,
   cvIcon,
+  fy_fr,
+  fy_cn,
+  fy_en,
 };

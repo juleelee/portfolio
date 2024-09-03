@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { AirplaneCanvas } from './canvas';
+import { MyModelCanvas } from './canvas';
+import SplineViewer from './canvas/SplineViewer';
 import Typewriter from 'typewriter-effect'; // Import the Typewriter component
 
 const Hero = () => {
@@ -28,7 +30,8 @@ const Hero = () => {
           
         </div>
       </div>
-      <AirplaneCanvas />
+      <MyModelCanvas />
+      
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

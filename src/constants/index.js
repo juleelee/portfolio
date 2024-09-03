@@ -18,13 +18,14 @@ import {
     saintlouis,
     n7,
     tutor,
+    hust,
     carrent,
     jobit,
     tripguide,
     ana_donnee,
-    fuyao_cn,
-    fuyao_en,
-    fuyao_fr,
+    fy_cn,
+    fy_en,
+    fy_fr,
     pim,
     raffinage,
     cs,
@@ -181,18 +182,49 @@ import {
         "Conducted in-depth analysis and research on GDPR compliance, ensuring company adherence to data protection regulations.",
         "Researched and implemented ISO/IEC standards, contributing to the enhancement of quality and security protocols within the organization.",
     ],
+
+      pdfLinks: [
+        { label: "Download Report (Chinese 中文)", link: fy_cn},
+        { label: "Download Report (French)", link: fy_fr },
+        { label: "Download Report (English)", link: fy_en },
+      ],
     },
     {
       title: "Private Lessons",
       company_name: "Discord - Home",
       icon: tutor,
       iconBg: "#E6DEDD",
-      date: "Sept 2023 - Now",
+      date: "Sept 2023 - June 2024",
       points: [
         "Private tutoring in math and physics, providing personalized lessons and tailored explanations.",
         "Effective communication and pedagogical skills to help students grasp challenging concepts.",
         "Adapting teaching methods to individual learning styles.",
       ],
+    
+    },
+    {
+      title: "Research Internship",
+      company_name: "HUST (Huazhong University of Science and Technology)",
+      icon: hust,
+      iconBg: "#E6DEDD",
+      date: "June 2024 - August 2024",
+      points: [
+        "Understanding and applying advanced concepts like NeRF, Gaussian Splatting, Scaffold-GS, and Spacetime.",
+        "Developing a website for image comparison using PSNR and SSIM metrics.",
+        "Deducing pipelines from existing source codes to guide further modifications.",
+        "Reading and comprehending scientific papers on advanced topics.",
+        "Adapting to new environments and technologies, including Chinese apps like WeChat and Alipay.",
+        "Conducting presentations in Chinese, enhancing communication skills in a multicultural setting.",
+        "Participating in team-building activities and exploring the local culture, which helped in fostering better team cohesion and understanding of cultural nuances.",
+
+      ],
+
+      pdfLinks: [
+        { label: "Download Report 1", link: "/path/to/report1.pdf" },
+      
+      ],
+      buttonText: "Visit Site",
+      buttonLink: "https://juleelee.github.io/splat/",
     
     },
     

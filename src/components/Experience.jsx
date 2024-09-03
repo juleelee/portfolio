@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-
+import { AirplaneCanvas } from './canvas';
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
@@ -66,7 +66,29 @@ const ExperienceCard = ({ experience }) => {
                 {point}
               </li>
             ))}
+
+        
       </ul>
+
+      {experience.pdfLinks && experience.pdfLinks.map((pdf, index) => (
+        <div key={`pdf-${index}`} className='mt-3'>
+          <a href={pdf.link} className='btn' download>
+            {pdf.label}
+          </a>
+        </div>
+      ))}
+
+      {experience.buttonText && experience.buttonLink && (
+        <div className='mt-3'>
+          <a href={experience.buttonLink} className='btn' target="_blank" rel="noopener noreferrer">
+            {experience.buttonText}
+          </a>
+        </div>
+      )}
+
+
+
+      
 
       {experience.points.length > 3 && (
         <button
@@ -76,6 +98,7 @@ const ExperienceCard = ({ experience }) => {
           {showMorePoints ? "Show less" : "Show more"}
         </button>
       )}
+
     </VerticalTimelineElement>
   );
 };
@@ -90,6 +113,7 @@ const Experience = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Experience.
         </h2>
+        <AirplaneCanvas />
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
