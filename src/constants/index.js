@@ -35,6 +35,7 @@ import {
     ro,
     sec,
     tdl,
+    hust_report,
     telecom1,
     telecom2,
     telecom3,
@@ -58,6 +59,7 @@ import {
     logan,
     minji,
     wy,
+    gt,
     
   } from "../assets";
   
@@ -220,12 +222,30 @@ import {
       ],
 
       pdfLinks: [
-        { label: "Download Report 1", link: "/path/to/report1.pdf" },
+        { label: "Download Report", link: hust_report},
       
       ],
       buttonText: "Visit Site",
       buttonLink: "https://juleelee.github.io/splat/",
     
+    },
+
+    {
+      title: "Graduate Studies",
+      company_name: "Georgia Institute of Technology - Aerospace Engineering",
+      icon: gt,
+      iconBg: "#B3A369",
+      date: "Jan 2025 - Present",
+      points: [
+        "Pursuing advanced coursework in aerospace engineering, focusing on computational methods, fluid dynamics, and control systems.",
+        "Engaging in research on computational fluid dynamics (CFD) and machine learning applications in aerospace design.",
+        "Collaborating with faculty and researchers on cutting-edge aerospace projects, including UAVs and space propulsion.",
+        "Developing and optimizing numerical simulations for aerodynamics and structural analysis.",
+        "Utilizing high-performance computing (HPC) resources for large-scale simulations.",
+        "Applying deep learning techniques for predictive modeling and anomaly detection in aerospace systems.",
+        "Participating in seminars and workshops to stay updated on the latest advancements in aerospace technology.",
+        "Enhancing technical communication skills through research presentations and academic publications.",
+      ],
     },
     
   ];

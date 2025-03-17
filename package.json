@@ -17,7 +17,6 @@
     "@use-it/event-listener": "^0.1.7",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.6",
-    "gle-gaussian-splat-3d": "^1.0.17",
     "gsplat": "^1.2.4",
     "maath": "^0.10.7",
     "mini-svg-data-uri": "^1.4.4",

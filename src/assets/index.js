@@ -25,10 +25,8 @@ import tutor from "./company/tutor.png";
 import saintlouis from "./company/saintlouis.png";
 import n7 from "./company/enseeiht.png";
 import hust from "./company/Hustseals.png";
+import gt from "./company/gt.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import ana_donnee from "./doc/ana_donnee.pdf";
 import fuyao_cn from "./doc/fuyao_cn.pdf";
@@ -47,6 +45,7 @@ import telecom1 from "./doc/Rapport_Telecom.pdf";
 import telecom2 from "./doc/RAPPORT_Telecom_Part_2.pdf";
 import telecom3 from "./doc/Rapport_Telecom_Part_3.pdf";
 import ts from "./doc/Rapport_traitement_du_signal-1.pdf";
+import hust_report from "./doc/Report_Internship_HUST.pdf";
 
 import fy_fr from "./doc/Report_fuyao_fr.pdf";
 import fy_en from "./doc/Report_fuyao_en.pdf";
@@ -102,6 +101,7 @@ export {
   saintlouis,
   n7,
   hust,
+  gt,
   carrent,
   jobit,
   tripguide,
@@ -122,6 +122,7 @@ export {
   telecom2,
   telecom3,
   ts,
+  hust_report,
   cv_en,
   cv_fr,
   img_ana,
