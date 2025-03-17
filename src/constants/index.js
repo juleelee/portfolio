@@ -19,9 +19,6 @@ import {
     n7,
     tutor,
     hust,
-    carrent,
-    jobit,
-    tripguide,
     ana_donnee,
     fy_cn,
     fy_en,
@@ -234,7 +231,7 @@ import {
       title: "Graduate Studies",
       company_name: "Georgia Institute of Technology - Aerospace Engineering",
       icon: gt,
-      iconBg: "#B3A369",
+      iconBg: "#E6DEDD",
       date: "Jan 2025 - Present",
       points: [
         "Pursuing advanced coursework in aerospace engineering, focusing on computational methods, fluid dynamics, and control systems.",
