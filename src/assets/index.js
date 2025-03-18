@@ -46,6 +46,12 @@ import telecom2 from "./doc/RAPPORT_Telecom_Part_2.pdf";
 import telecom3 from "./doc/Rapport_Telecom_Part_3.pdf";
 import ts from "./doc/Rapport_traitement_du_signal-1.pdf";
 import hust_report from "./doc/Report_Internship_HUST.pdf";
+import ml1 from "./doc/p1_martingale_report.pdf";
+import ml2 from "./doc/p2_optimization_report.pdf";
+import ml3 from "./doc/p3_assesslearners_report.pdf";
+import ml6 from "./doc/p6_indicatorsTOS_report.pdf";
+
+
 
 import fy_fr from "./doc/Report_fuyao_fr.pdf";
 import fy_en from "./doc/Report_fuyao_en.pdf";
@@ -68,6 +74,10 @@ import img_t2 from "./img_projet/telecom2.png";
 import img_t3 from "./img_projet/telecom3.png";
 import img_ts from "./img_projet/ts.png";
 import img_tdl from "./img_projet/tdl.png";
+import img_ml1 from "./img_projet/img_ml1.png";
+import img_ml2 from "./img_projet/img_ml2.png";
+import img_ml3 from "./img_projet/img_ml3.png";
+import img_ml6 from "./img_projet/img_ml6.png";
 
 import instagram from "./instagram.png"
 import logan from "./dessins/logan.png";
@@ -144,4 +154,12 @@ export {
   fy_fr,
   fy_cn,
   fy_en,
+  ml1,
+  ml2,
+  ml3,
+  ml6,
+  img_ml1,
+  img_ml2,
+  img_ml3,
+  img_ml6,
 };

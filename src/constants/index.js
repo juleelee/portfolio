@@ -57,6 +57,14 @@ import {
     minji,
     wy,
     gt,
+    ml1,
+    ml2,
+    ml3,
+    ml6,
+    img_ml1,
+    img_ml2,
+    img_ml3,
+    img_ml6,
     
   } from "../assets";
   
@@ -481,6 +489,71 @@ import {
       image: img_ts,
       source_code_link: "https://github.com/juleelee/Projects.git",
       pdf_link:ts,
+    },
+
+
+    {
+      name: "Project 1: Martingale",
+      description:
+        "This first report seeks to measure the performance of the Martingale strategy through two experiments: the first with no money limit, and the second with a limit of $256. The results include probabilities of winning $80, expected values after 1000 spins, and standard deviation behavior. It highlight the strengths and weaknesses of the Martingale strategy under different conditions. The results seek to show the limitations of certain strategies.",
+        tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+      
+      ],
+      image: img_ml1,
+      source_code_link: "https://github.com/juleelee/Projects.git",
+      pdf_link:ml1,
+    },
+
+    {
+      name: "Project 2: Optimization",
+      description:
+        "In this project, we optimized a stock portfolio by maximizing the Sharpe ratio using historical stock data. We started with equal weights for all assets in the portfolio, which included the stocks: IBM, X, GLD, and JPM, for the period from June 1, 2008, to June 1, 2009. By adjusting the allocations of assets, we identified the optimal weights that provide the best risk-adjusted return. The final results were compared with the performance of the SPY index.",
+        tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+      
+      ],
+      image: img_ml2,
+      source_code_link: "https://github.com/juleelee/Projects.git",
+      pdf_link:ml2,
+    },
+
+    {
+      name: "Project 3: Assess Learners",
+      description:
+        "Abstract—This third project analyzes overfitting in decision trees, the impact of bagging on overfitting, and compares DTLearner and RTLearner. Results show that bagging reduces overfitting, DTLearner offers stability, and RTLearner is faster but less consistent.",
+        tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+      
+      ],
+      image: img_ml3,
+      source_code_link: "https://github.com/juleelee/Projects.git",
+      pdf_link:ml3,
+    },
+
+    {
+      name: "Project 6: Technical Indicators and Theoretically Optimal Strategy",
+      description:
+        "Abstract—This report evaluates five technical indicators (Bollinger Bands, RSI, MACD, Stochastic Oscillator, and Rate of Change) for trading JPM stock from 2008 to 2009. It also presents a theoretically optimal strategy (TOS) assuming perfect market foresight. Results show how parameter choices impact indicator performance and demonstrate the TOS significantly outperforming a buy-and-hold benchmark.",
+        tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+      
+      ],
+      image: img_ml6,
+      source_code_link: "https://github.com/juleelee/Projects.git",
+      pdf_link:ml6,
     },
 
 
