@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { drawings } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { CraneCanvas } from './canvas';
+
 const HobbyCard = ({ index, name, image }) => {
   return (
     <motion.div key={`hobby-${index}`} className="your-hobby-card-styles">
@@ -65,12 +67,21 @@ const Hobby = () => {
           Explore my drawings! Click on the Instagram icon to view more of my artwork and follow me for updates.
         </motion.p>
       </div>
+      
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {drawings.map((drawing, index) => (
           <HobbyCard key={`hobby-${index}`} index={index} {...drawing} />
         ))}
       </div>
+
+      <section className="relative w-50 h-screen mx-auto">
+
+        <CraneCanvas />
+      </section>
+      
+
+     
     </>
   );
 };
